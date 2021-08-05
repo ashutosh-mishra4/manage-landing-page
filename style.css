@@ -81,7 +81,7 @@ button:active{
     font-weight: 700;
 }
 .hero__img{
-    width: auto;
+    max-width: 100%;
     height: auto;
     position: relative;
     left: 3%;
@@ -239,7 +239,9 @@ footer{
 }
 .attribution {
     position: relative;
-    top: 20px;
+    top: 10px;
+    bottom: 10px;
+
 }
 @media screen and (max-width: 1295px){
     .hero{
